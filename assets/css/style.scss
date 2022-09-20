@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-nav .page-link{ 
+    color: #111111;
+    
+
+}
+
+.site-nav{
+    display: flex;
+    background-color: whitesmoke;
+    border-bottom: lightgray solid 2px;
+    justify-content: center;
+    border-radius: 5px 5px 0 0;
+    margin: 0%;
+    
+}
+.site-header{border-bottom: 0;}
+.site-header .wrapper{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.site-title,
+.site-title:visited {
+    color: white;
+}
+body {
+    background: rgb(89,70,178);
+    background: linear-gradient(180deg, rgba(89,70,178,1) 27%, rgba(183,132,226,1) 71%);
+    width: 90%;
+    max-width: calc(100%-4em);
+    margin: 0 auto;
+}
+.page-content {
+    background-color: whitesmoke;
+    border-radius: 0 0 5px 5px;
+}
+.footer-col-wrapper{color:black}
+.site-footer{
+    border: 0;
+}
